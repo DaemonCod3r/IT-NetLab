@@ -19,3 +19,14 @@ E il server LDAP risponde con i dati richiesti.
 * Autenticazione: Verifica chi sei (es. login su una rete aziendale).
 * Autorizzazione: Decide cosa puoi fare (es. accedere a determinate risorse).
 * Gestione centralizzata: Consente di gestire tutti gli utenti e risorse da un'unica posizione.
+
+### Dove viene utilizzato?
+LDAP viene utilizzato prevalentemente in:
+* In ambienti aziendali per gestire utenti e accessi.
+* In servizi web, per autenticare utenti con un'unica "rubrica".
+
+
+
+
+
+

@@ -10,7 +10,7 @@ Un directory service è un sistema che memorizza informazioni su utenti, compute
 * Dentro ogni gruppo ci sono oggetti come utenti specifici.  
 
 LDAP è il "linguaggio" standard che permette di cercare, leggere e modificare queste informazioni.
-#### Facciamo un esempio pratico:
+**Facciamo un esempio pratico:**
 Immagina che un'azienda voglia controllare chi può accedere ad un’applicazione. Le informazioni su ogni dipendente (come nome utente, password, ruolo, email) sono salvate in un server che usa LDAP. Quando ti connetti al sistema, il tuo computer chiede al server LDAP:
 
 "Chi è Mario Rossi? Ha il permesso di accedere?"
@@ -25,8 +25,8 @@ LDAP viene utilizzato prevalentemente in:
 * In ambienti aziendali per gestire utenti e accessi.
 * In servizi web, per autenticare utenti con un'unica "rubrica".
 
-
-
-
-
-
+# Come si configura?  
+Iniziamo la parte divertente...(forse 😈) proviamo a configurare un server con LDAP.  
+Requisiti: 
+* Avere un Server/home-Server Tutorial [ProxmoxVE](https://) 
+* VM con Ubuntu 24.04 server [Ubuntu-Server](https://)

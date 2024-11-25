@@ -29,4 +29,25 @@ LDAP viene utilizzato prevalentemente in:
 Iniziamo la parte divertente...(forse 😈) proviamo a configurare un server con LDAP.  
 Requisiti: 
 * Avere un Server/home-Server Tutorial [ProxmoxVE](https://) 
-* VM con Ubuntu 24.04 server [Ubuntu-Server](https://)
+* VM con Ubuntu 24.04 server [Ubuntu-Server](https://)  
+
+Nella guida utilizzeremo tutti i comandi relativi a Ubuntu24.04 LTS. 
+Per prima cosa connettiamoci alla macchina remota
+```bash 
+ssh host@ip 
+```
+aggiorniamo i pacchetti 
+```bash 
+sudo apt update && sudo apt upgrade -y
+```
+una volta fatti gli aggiornamenti andiamo ad 
+installare i pacchetti di cui avremo bisogno.
+```bash 
+sudo apt install apache2 php php-cgi libapache2-mod-php php-mbstring php-common php-pear -y
+```
+```bash 
+sudo apt install slapd ldap-utils -y
+```
+```bash 
+sudo apt -y install ldap-account-manager
+```
